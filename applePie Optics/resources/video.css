@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+body {
+    width: 100vw;
+    height: auto;
+    background-image: url(/resources/apple.clear.png);
+    background-size: cover;
+    height:100vhpx;
+    background-attachment: fixed;
+    max-width:1440px;
+    cursor: crosshair;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display:inline-block;
+    color: black;
+    font-family: 'shippori mincho', serif;
+    text-align: left;
+    font-size: 4rem;
+    margin-left: 10px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: color 2s ease, background-color 200ms ease;
+}
+
+
+h1:hover {
+    background-color: black;
+    color: white;
+    backdrop-filter: blur(40px);
+}
+
+
+.gallery {
+    position: relative;
+    top: 100px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px 300px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+iframe {
+    display: block;
+    max-width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-radius: 10px;
+}
+
+.grid_text {
+    display: block;
+    font-family: 'lato', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.grid_text a {
+    text-decoration: underline;
+}
+
+#more {
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}

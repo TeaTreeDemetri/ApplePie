@@ -59,9 +59,6 @@ ul {
     margin-top: -250px;
     list-style: none;
     display: block;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column: 1 / 5;
     font-family: 'Lato', sans-serif;
     color: hsl(357,38%,40%);
 }
@@ -198,7 +195,7 @@ h3{
     margin:  20px auto;
     border-radius: 10px;
     display: block;
-    border: 2px solid white;
+    border: 2px solid black;
     object-fit: cover;
 }
 
